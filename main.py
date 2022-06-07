@@ -100,3 +100,5 @@ print(df.head())
 #怎么把三个表格合并起来
 dfnew = merge(df1, df2, on='序列号')
 dfnew.to_csv('/Users/fanxuancheng/Desktop/筛选.csv')
+
+print('123')
